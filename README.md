@@ -1,5 +1,5 @@
 #Learning Web Development with React and Bootstrap
-This is the code repository for [Learning Web Development with React and Bootstrap](https://www.packtpub.com/web-development/learning-web-development-react-and-bootstrap?utm_source=github&utm_medium=repository&utm_campaign=9781786462497), published by [Packt](www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish.
+This is the code repository for [Learning Web Development with React and Bootstrap](https://www.packtpub.com/web-development/learning-web-development-react-and-bootstrap?utm_source=github&utm_medium=repository&utm_campaign=9781786462497), published by [Packt](https://www.packtpub.com). It contains all the supporting project files necessary to work through the book from start to finish.
 ## About the Book
 Get in touch here if you have any queries or issues.
 ##Instructions and Navigations
