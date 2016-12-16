@@ -1,0 +1,52 @@
+2.MongoDB: 
+
+	a)Download the package as per the available version for your operating
+
+	b)system. For Windows, we have to download mongodb-win32-x86_64-enterprise-windows-64-3.0.6-signed.msi.
+
+	c)Run your Installer Wizard, accept the license, and select the complete installation when prompted
+
+	d)After installation, open the mongodb directory and go to the bin folder.
+
+	e)Open the command prompt and run the following command to set the
+
+	f)database path. Choose the path as per your setup:
+		i.mongod --dbpath D:\B04569_Chapter_08\Code\serverside-testing\data
+
+	g)Running the previous command will start a server and wait for connections.
+
+	h)Then, open a new command window in the same directory and type mongo to connect with your database:
+		i.Mongo
+
+	i)Once you run the mongo command, it will start the database connection, and the MongoDB server will show you the           following line, which acknowledges that the connection is accepted.
+
+	j)Create the database nodedb using the use nodedb command:
+		i.use nodedb
+
+	k)Now, create collections to store your TicketDetails. To create a collection for TicketDetails, let's create a 		  variable that holds the schema and data:	
+	
+collection:
+> tickets =
+[
+{
+"email" : "",
+"issuetype" : "",
+"department" : "",
+"ticketstate" : "",
+"comments" : "",
+"createddate" : ""
+}
+];
+> db.tickets.insert(tickets);
+BulkWriteResult({
+"writeErrors" : [ ],
+"writeConcernErrors" : [ ],
+"nInserted" : 1,
+"nUpserted" : 0,
+"nMatched" : 0,
+"nModified" : 0,
+"nRemoved" : 0,
+"upserted" : [ ]
+})
+
+Now, we have our data ready to use in the application.

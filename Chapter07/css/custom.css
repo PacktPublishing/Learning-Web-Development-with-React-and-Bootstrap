@@ -1,0 +1,8 @@
+.profile-desc h2{
+    margin-top: 0px;
+    text-align: right;
+}
+.navbar-default .navbar-nav li>.active, .navbar-default .navbar-nav li>.active:hover, .navbar-default .navbar-nav li>.active:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}

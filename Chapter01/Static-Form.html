@@ -1,0 +1,43 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+		<title>ReactJS Chapter 1</title>		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script src="js/browser.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. 
+Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        <div id="loginForm"></div>
+			<script type="text/babel">
+			var LoginformHTML = 
+			<div className="container-fluid">
+				<div className="row">
+					<div className="col-lg-6">
+						<form>
+							<h1>Login Form</h1>
+							<hr/>
+							  <div className="form-group">
+								<label for="emailInput">Email address</label>
+								<input type="email" className="form-control" id="emailInput" placeholder="Email"/>
+							  </div>
+							  <div className="form-group">
+								<label for="passwordInput">Password</label>
+								<input type="password" className="form-control" id="passwordInput" placeholder="Password"/>
+							  </div>
+							  <button type="submit" className="btn btn-default col-xs-offset-9 col-xs-3">Submit</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			  ReactDOM.render(LoginformHTML,document.getElementById('loginForm'));
+			</script>    
+    </body>
+</html>

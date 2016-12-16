@@ -1,0 +1,9 @@
+.bg-info{
+padding: 10px;
+    margin-bottom: 10px;
+	}
+	.profile-img{
+		background:url("../images/profile-img.png") no-repeat center center;
+		width: 222px;
+		height: 200px;
+	}

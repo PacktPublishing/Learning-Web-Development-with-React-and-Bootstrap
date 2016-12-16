@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<title>ReactJS theme with bootstrap</title>		
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/custom.css">
+		
+		<script type="text/javascript" src="js/react.min.js"></script>
+		<script type="text/javascript" src="js/react-dom.min.js"></script>
+		<script src="js/browser.min.js"></script>
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <div id="nav"></div>
+	  <script type="text/babel">
+			var NavbarHTML = 
+				<nav className="navbar navbar-default navbar-static-top" role="navigation">
+				  <div className="container">
+					<div className="navbar-header">
+					  <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span className="sr-only">Toggle navigation</span>
+						<span className="icon-bar"></span>
+						<span className="icon-bar"></span>
+						<span className="icon-bar"></span>
+					  </button>
+					  <a className="navbar-brand" href="#">EIS</a>
+					</div>
+					<div className="navbar-collapse collapse">
+					  <ul className="nav navbar-nav">
+						<li className="active"><a href="#">Home</a></li>
+						<li><a href="#">Edit Profile</a></li>
+						<li className="dropdown">
+						  <a href="#" className="dropdown-toggle" data-toggle="dropdown">Help Desk <b className="caret"></b></a>
+						  <ul className="dropdown-menu">
+							<li><a href="#">View Tickets</a></li>
+							<li><a href="#">New Ticket</a></li>
+						  </ul>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				</nav>
+			  ReactDOM.render(NavbarHTML,document.getElementById('nav'));
+		
+
+	</script>
+<div class="container">
+		<hr>
+    <div class="row">
+  		<div class="col-sm-3" id="sidebar"><!--left col-->
+          
+          
+        </div><!--/col-3-->
+			<div class="col-sm-9 profile-desc">
+			
+			</div><!--/col-9-->
+    </div><!--/row-->
+
+    </body>
+</html>
