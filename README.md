@@ -24,7 +24,7 @@ To run the examples in this book, the following tools are required:
 * ReactJS 15.1 and above https://facebook.github.io/react/
 * ReactJS DOM 15.1 and above https://facebook.github.io/react/
 * Babel 5.8.23 https://cdnjs.com/libraries/babel-core/5.8.23
-* Bootstrap 3.3.5 getbootstrap.com/
+* Bootstrap 3.3.5 http://getbootstrap.com/
 * jQuery 1.10.2 http://jquery.com/download/
 * React-Bootstrap 1.0.0 https://react-bootstrap.github.io/
 * JSX Transformer 0.13.3 https://cdnjs.com/libraries/react/0.13.0
