@@ -25,7 +25,7 @@ export default function users(state = initialState, action) {
   switch (action.type) {
 
     case types.ADD_USER:
-      const newId = state.users[state.users.length-1] + 1;
+      const newId = state.users.length > 0 ? state.users[state.users.length - 1] + 1 : 0;
       return {
         ...state,
         users: state.users.concat(newId),
